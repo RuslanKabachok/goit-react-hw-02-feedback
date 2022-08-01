@@ -2,15 +2,15 @@ import React, { Component } from 'react';
 import css from './FeedbackOptions.module.css';
 
 class FeedbackOptions extends Component {
-  clickHandler = event => {
-    const name = event.currentTarget.name;
+  // clickHandler = event => {
+  //   const name = event.currentTarget.name;
 
-    this.setState(prevState => {
-      return {
-        [name]: prevState[name] + 1,
-      };
-    });
-  };
+  //   this.setState(prevState => {
+  //     return {
+  //       [name]: prevState[name] + 1,
+  //     };
+  //   });
+  // };
 
   render() {
     const btns = this.props.options;
